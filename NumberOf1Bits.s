@@ -24,7 +24,7 @@ func:
 _beq:
     bne t1,x0,cnt # if(n!=0) goto cnt
 _ret:
-    mv a0,t0 # a1=count
+    mv a0,t0 # a0=count
     ret
 cnt:
     addi t2,t1,-1 # t2 = argument-1
